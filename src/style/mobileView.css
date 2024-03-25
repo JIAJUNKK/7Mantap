@@ -1,0 +1,155 @@
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-column {
+        flex-direction: row;
+    }
+    .shirts-container{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .shirts-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .shirt-img-background-container{
+        height: 80% !important;
+    }
+    .inline-text{
+        transform: translate(-110%, -95%);
+    }
+    /*Containers*/
+    .form-container{
+        display: flex; flex-direction: column;
+        min-width: 100%; max-width: 100%;
+        margin-bottom: 10% !important;
+        border-radius: 0% !important;
+        border: none !important;
+    }
+    .registration-form-container{
+        display: flex; flex-direction: column;
+        min-width: 100%; max-width: 100%;
+        margin-bottom: 10% !important;
+        border: 2px solid black;
+        border-radius: 0% !important; 
+    }
+
+    .shopping-bag-container {
+        flex-direction: column-reverse !important;
+        margin-top: 0 !important;
+    }
+    .order-summary-container{
+        position: static;
+        width: 100% !important;
+        margin-right: 10%; max-width: 100%;
+    }
+
+    .user-profile-main-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .big-information-container{
+        min-width: 100%; max-width: 100%;
+        border: 2px solid black;
+    }
+
+    .big-div-container-right{
+        background-color: white;
+        margin-top: 0px; margin-left: 15%;
+        width: 100%; 
+    }
+    .small-information-container{
+        min-width: 100%; max-width: 100%;
+        margin-left: 5% !important;
+        padding: 20px;
+        border: 2px solid black;
+        position: static; 
+    }
+    .checkout-main-container{
+        flex-direction: column-reverse !important; 
+    }
+    .checkout-left-container{
+        margin-left: 0 !important;
+        margin-top: 10%;
+    }
+    .order-history-router-link-container{
+        justify-content: space-between !important;
+        margin: 5% 0 5% 1% !important;
+    }
+
+    /*ShoppingBag.css*/
+    .shopping-bag-empty-container{
+        text-align: center !important;
+    }
+    .shopping-bag-items-container{
+        width: 100% !important;
+        margin-top: 10%;
+    }
+    .shopping-bag-item-details{
+        margin-bottom: 10%;
+    }
+    .shopping-bag-item-header h2{
+        font-size: 1rem !important;
+    }
+    .remove-btn{
+        width: 20% !important; 
+    }
+    .item-details{
+        margin-top: 0 !important; margin-left: 0 !important;
+        display: flex; flex-direction: column !important; 
+        width: 100% !important;
+    }
+    .item-quantity-select{
+        width: 100% !important;
+    }
+    .checkout-item-quantity-select{
+        width: 90% !important;
+    }
+    .shirt-img-router-link{
+        width: 80% !important; 
+    }
+
+    /*Buttons*/
+    .big-submit-button{
+        margin-top: 0 !important;
+    }
+    .copy-button{
+        width: 10% !important;
+    }
+    /*ShirtDetails.css*/
+    .shirt-detail-container {
+        flex-direction: column !important;
+    }
+    .shirt-detail-description{
+        text-align: center !important;
+    }
+    .size-options{
+        margin-left: 0 !important;
+    }
+    .shirt-detail-image-container {
+        width:100% !important;
+    }
+    .shirt-detail-img {
+        width: 100% !important;
+    }
+
+    /*Feedback*/
+    .char-count{
+        margin-top: -15% !important;
+    }
+
+    /*Confirmation Page*/
+    .confirmation-page {
+        max-width: 100% !important;
+        border: 2px solid black;
+        border-radius: 0 !important;
+    }
+    .order-inner-details{
+        flex-direction: column !important;
+    }
+    .order-details-right{
+        border: 2px solid black;
+    }
+
+}

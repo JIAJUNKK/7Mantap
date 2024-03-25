@@ -1,0 +1,46 @@
+.filterContainer{
+    float: right;
+    margin-right: 3%;
+}
+.filterContainer label{
+    font-size: 1.2rem;
+}
+.shirts-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    column-gap: 3%;
+    margin: 0 5%;
+}
+
+.shirts-container{
+    width: 80%;
+    background: #cccccc;
+    margin-left: 10%; margin-top: 1%;
+    border: 10px;
+}
+.shirt-info-container{
+    background-color: #FAF9F6;
+    margin: 10px;
+    padding: 10px 10px 70px 10px;
+}
+.shirt-img-background-container{
+    width: 100%; height: 100%;
+    background-color: white;
+    display: flex; justify-content: center; align-items: center;
+    border: 2px solid black;
+}
+.shirt-img{
+    width: 90%;
+}
+.shirt-img:hover{
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+#sortSelect{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+

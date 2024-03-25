@@ -1,0 +1,47 @@
+.big-submit-button{
+    background-color: black; color: white; /* White text */
+    font-weight: bold; font-size: 1.5rem;
+    padding: 1.2vw;
+    width: 90%;
+    margin-left: 20px; margin-top: 10%;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    border: none; 
+    text-align: center; 
+}
+.big-submit-button:hover{
+    background-color: #333;
+}
+.big-cancel-button{
+    background-color: white; color: black; 
+    font-weight: bold; font-size: 1.5rem;
+    padding: 1.2vw;
+    width: 90%;
+    margin-bottom: 1vw; margin-left: 20px; margin-top: 1%;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    border: 2px solid black; 
+    text-align: center; 
+}
+.big-cancel-button:hover{
+    text-decoration: underline;
+}
+
+.small-cancel-button {
+    background-color: #FAF9F6; color: black;
+    font-weight: bold; font-size: 1.5rem;
+    padding: 1vw;
+    margin-left: 10px; margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    transition-duration: 0.4s;
+    border: 2px solid black;
+    text-align: center;    
+  }
+  
+.small-cancel-button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid none;
+    text-decoration: underline;
+}

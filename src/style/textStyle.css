@@ -1,0 +1,70 @@
+.router-link-title{
+    font-style: bold; font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+.router-link-title:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.big-title{
+    margin-bottom: 5%;
+}
+.edit-text-toggle{
+    text-decoration: none; color: black;
+    transition: background-color 0.1s ease;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.edit-text-toggle:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.required {
+    color: red;
+    margin-left: 5px; /* Add some spacing between the label and the asterisk */
+}
+
+.order-id{
+    font-size: 1rem;
+}
+
+.ordered-item-image{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+
+.success-message {
+    font-size: 1rem;
+    color: #4CAF50;
+    margin-top: 10px;
+    text-align: center;
+}
+.error-message {
+    color: red;
+    text-align: center;
+}
+.loading-message {
+    font-size: 1rem;
+    color: #333;
+}
+.inline-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(-110%, -110%);
+    cursor: pointer;
+}
+
+.item-image{
+    margin: 0 5% 1% 1%;
+}
+
+
+.breaker {
+    margin-top: 5vh; margin-bottom: 1vh;
+    border-bottom: 2px solid black; 
+}
+  

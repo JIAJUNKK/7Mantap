@@ -1,0 +1,97 @@
+.user-profile-main-container{
+    display: flex; flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.small-information-container{
+    background-color: #FAF9F6; 
+    min-width: 250px; max-height: 300px;
+    margin-left: 20%;
+    padding: 20px;
+    text-align: left;
+    display: flex; flex-direction: column;
+    position: sticky; top: 10px;
+}
+.big-div-container-right{
+    display: flex; flex-direction: column;
+    margin-right: 10%; background-color: white;
+    margin-top: 0px;
+}
+.big-information-container{
+    background-color: #FAF9F6; 
+    min-width: 600px; max-width: 600px; 
+    margin-bottom: 10vh; 
+    text-align: left;
+    display: flex; flex-direction: column;
+}
+
+.inner-information-container{
+    margin-left: 10px;
+}
+.edit-title-header{
+    display: flex; flex-direction: row; justify-content: space-between;
+    margin: 10px 0 10px 10px;
+}
+.form-container, .registration-form-container{
+    background-color: #FAF9F6;
+    margin-top: 0px; margin-right: 10%; 
+    min-width: 600px; max-width: 600px; 
+    text-align: center;
+} 
+.form-container form, .registration-form-container form{
+    text-align: left;
+    margin-left: 10px;
+}
+.form-container label, .registration-form-container label{
+    margin-left: 20px;
+}
+
+.order-summary-container{
+    position: sticky;
+    top: 10px;
+    margin-right: 10%; max-width: 400px;
+    width: 50%; max-height: 350px;
+    background-color: #FAF9F6;
+}
+
+.order-details-container{
+    margin-top: 5%;
+}
+.order-details-inner-container{
+    margin-top: 5%; 
+    display: flex; flex-direction: row; justify-content: space-between;
+}
+.order-details-left-inner-container{
+    margin-top: 0; 
+}
+.order-inner-details{
+    margin-top: 5%;
+    display: flex; flex-direction: row; justify-content: space-between;
+}
+.ordered-items-container{
+    display: flex;
+    margin-top: 2%;
+}
+.input-field-with-text-container {
+    position: relative;
+}
+.order-id-container {
+    display: flex;
+    align-items: center;
+}
+
+/*Shopping Bag*/
+.summary-details-container{
+    margin-top: 20px;
+    padding: 10px;
+}
+.summary-item-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.summary-item-container p:nth-child(2) {
+    flex-grow: 1;
+    text-align: right;
+}
+
+  
