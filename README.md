@@ -1,5 +1,6 @@
 # 7Mantap
-<img width="1435" alt="Screenshot 2024-03-25 at 7 23 52 PM" src="https://github.com/JIAJUNKK/7Mantap/assets/69725776/2d4df3ef-55b5-49f0-8572-0271d423f143">
+
+<img width="855" alt="7Mantap" src="https://github.com/JIAJUNKK/7Mantap/assets/69725776/59d3579a-6080-4a3a-8d64-5176cdffcdf8"><br>
 Welcome to 7Mantap! 7Mantap is an ecommerce website specializing in streetwear fashion. It offers a secure checkout process powered by Stripe. While currently focusing on streetwear, the platform plans to expand its product range to include sneakers and collectibles in the future. Whether you're searching for the latest streetwear trends or looking to add unique pieces to your collection, 7Mantap aims to be your go-to destination for all your fashion needs.
 <hr>
 
