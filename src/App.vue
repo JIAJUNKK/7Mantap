@@ -22,7 +22,10 @@
       </div>
       <div class="user-links" v-if="!mobileMenuCollapsed">
         <router-link :to="userProfileLink">{{ signedIn ? username : 'Sign in' }}</router-link>
-        <router-link @mouseenter="openModal" @mouseleave="closeModal" to="/shoppingBag">Shopping Bag ({{ totalItems }})</router-link>
+        
+        <router-link v-if="!isMobile" @mouseenter="openModal" @mouseleave="closeModal" to="/shoppingBag">Shopping Bag ({{ totalItems }})</router-link>
+        <router-link v-if="isMobile" to="/shoppingBag">Shopping Bag ({{ totalItems }})</router-link>
+
         <a @click="logout" v-show="signedIn && !mobileMenuCollapsed">Log Out</a>
       </div>
     </nav>
@@ -73,6 +76,9 @@ export default {
   computed: {
     userProfileLink() {
       return this.signedIn ? '/UserProfile' : '/registration'; 
+    },
+    isMobile() {
+      return window.innerWidth <= 600; 
     }
   },
   methods: {
